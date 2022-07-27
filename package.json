@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "commit": "gitmoji -c",
+    "lint-staged": "lint-staged - config .lintstagedrc",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "^12.2.3",
@@ -19,6 +22,10 @@
     "@types/react-dom": "18.0.5",
     "eslint": "8.17.0",
     "eslint-config-next": "^12.2.3",
+    "gitmoji-cli": "^5.0.2",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
     "typescript": "4.7.3"
   }
 }
