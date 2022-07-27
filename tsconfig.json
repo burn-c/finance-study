@@ -14,7 +14,19 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "baseUrl": ".",
+    "paths": {
+      "@components": ["src/common/components"],
+      "@constants": ["src/common/constants"],
+      "@context": ["src/common/context"],
+      "@formatters": ["src/common/formatters"],
+      "@hooks": ["src/common/hooks"],
+      "@providers": ["src/common/providers"],
+      "@services": ["src/common/services"],
+      "@types": ["src/common/types"],
+      "@utils": ["src/common/utils"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]

@@ -1,4 +1,1 @@
-// Components
-export default function components() {
-  return
-}
+export { default } from './Header'
