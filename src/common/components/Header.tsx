@@ -1,7 +1,7 @@
-import { Button } from "@chakra-ui/react"
+import { Text } from "@chakra-ui/react"
 
 const Header = () => {
-  return <Button>Finance Studys</Button>
+  return <Text>Finance Studys</Text>
 }
 
 export default Header
